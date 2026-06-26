@@ -46,12 +46,11 @@ h1{border-bottom:2px solid #eee;letter-spacing:1px;clear:both;font-family:Verdan
 	}
 #port a.pp {
 	display: block;
-	width: calc(33.333% - 0.8em);
+	width: calc((100% - 2 * 1.2em) / 3);
+	box-sizing: border-box;
 	border-radius: 0.5em;
 	font-weight: normal;
 	color: #222;
-	}
-#port a.pp {
 	border: 1px solid #d9d8d8;
 	}
 #port a.pp:hover {
